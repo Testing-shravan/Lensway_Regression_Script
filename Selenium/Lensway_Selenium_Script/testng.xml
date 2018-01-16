@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression_Lensway_se">
+    <parameter name="country" value="se"/>
+
+
+        <listeners>
+            <listener class-name="extentReportListner.ExtentReportTestNG"/>
+        </listeners>
+
+        <test name="Sweden-Windows-chrome">
+
+
+    <classes>
+    <class name="testScripts.TC_002_Lensway_ValidLoginVerification"></class>
+    <class name="testScripts.TC_003_Lensway_UserRegistration"></class>
+        <class name="testScripts.TC_005_Lensway_PurchaseLenses_Sweden"></class>
+
+
+
+    </classes>
+
+    </test>
+
+
+    </suite>

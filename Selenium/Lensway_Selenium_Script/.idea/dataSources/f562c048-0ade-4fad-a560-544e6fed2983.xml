@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@stage1.lenslogistics.int">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.7">
+    <root id="1"/>
+    <schema id="2" parent="1" name="WWW_PUBLIC">
+      <ObjectId>285</ObjectId>
+      <IntrospectionTimestamp>2018-01-15.14:21:13</IntrospectionTimestamp>
+      <CreatedTimestamp>2010-10-14.13:53:18</CreatedTimestamp>
+      <ModifiedTimestamp>2012-02-02.18:26:25</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="ORDSYS">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="ORDPLUGINS">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="MDSYS">
+      <ObjectId>26</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="CTXSYS">
+      <ObjectId>29</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="OWAPUB">
+      <ObjectId>31</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="APPLSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APPLSYSPUB">
+      <ObjectId>33</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="ALR">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="AX">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="AK">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="XLA">
+      <ObjectId>37</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="GL">
+      <ObjectId>38</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="RG">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="FA">
+      <ObjectId>40</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="HR">
+      <ObjectId>41</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="SSP">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="BEN">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="HXT">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OTA">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="RLA">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="VEH">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="QA">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="ICX">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="AZ">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="BIS">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="PN">
+      <ObjectId>52</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="HXC">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="RLM">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="VEA">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="POM">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="FRM">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="ABM">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="BSC">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="EAA">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="EVM">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="FEM">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="AP">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="AR">
+      <ObjectId>64</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="OE">
+      <ObjectId>65</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="OSM">
+      <ObjectId>66</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="PA">
+      <ObjectId>67</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="CN">
+      <ObjectId>68</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="MFG">
+      <ObjectId>69</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="INV">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="PO">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="BOM">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="ENG">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="MRP">
+      <ObjectId>74</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="CRP">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="WIP">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="CZ">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="PJM">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="FLM">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="MSC">
+      <ObjectId>80</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="XTR">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="RHX">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="CS">
+      <ObjectId>83</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="CE">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="EC">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="JG">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="JE">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="JA">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="JL">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="GMA">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="GMD">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="GME">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="GMF">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="GMI">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="GML">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="GMP">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="GR">
+      <ObjectId>97</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="PMI">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="CUS">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="CUI">
+      <ObjectId>100</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="CUN">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="CUP">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="JTF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="84" parent="1" name="BIX">
+      <ObjectId>104</ObjectId>
+    </schema>
+    <schema id="85" parent="1" name="IEO">
+      <ObjectId>105</ObjectId>
+    </schema>
+    <schema id="86" parent="1" name="OKC">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="87" parent="1" name="OKS">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="88" parent="1" name="CSC">
+      <ObjectId>108</ObjectId>
+    </schema>
+    <schema id="89" parent="1" name="BIC">
+      <ObjectId>109</ObjectId>
+    </schema>
+    <schema id="90" parent="1" name="CSD">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="91" parent="1" name="ASF">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="92" parent="1" name="CSF">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="93" parent="1" name="ME">
+      <ObjectId>113</ObjectId>
+    </schema>
+    <schema id="94" parent="1" name="AMS">
+      <ObjectId>114</ObjectId>
+    </schema>
+    <schema id="95" parent="1" name="AMV">
+      <ObjectId>115</ObjectId>
+    </schema>
+    <schema id="96" parent="1" name="BIM">
+      <ObjectId>116</ObjectId>
+    </schema>
+    <schema id="97" parent="1" name="XNM">
+      <ObjectId>117</ObjectId>
+    </schema>
+    <schema id="98" parent="1" name="XNP">
+      <ObjectId>118</ObjectId>
+    </schema>
+    <schema id="99" parent="1" name="XDP">
+      <ObjectId>119</ObjectId>
+    </schema>
+    <schema id="100" parent="1" name="BIL">
+      <ObjectId>120</ObjectId>
+    </schema>
+    <schema id="101" parent="1" name="XNC">
+      <ObjectId>121</ObjectId>
+    </schema>
+    <schema id="102" parent="1" name="IES">
+      <ObjectId>122</ObjectId>
+    </schema>
+    <schema id="103" parent="1" name="XNS">
+      <ObjectId>123</ObjectId>
+    </schema>
+    <schema id="104" parent="1" name="CSS">
+      <ObjectId>124</ObjectId>
+    </schema>
+    <schema id="105" parent="1" name="FPT">
+      <ObjectId>125</ObjectId>
+    </schema>
+    <schema id="106" parent="1" name="AST">
+      <ObjectId>126</ObjectId>
+    </schema>
+    <schema id="107" parent="1" name="CCT">
+      <ObjectId>127</ObjectId>
+    </schema>
+    <schema id="108" parent="1" name="IBP">
+      <ObjectId>128</ObjectId>
+    </schema>
+    <schema id="109" parent="1" name="IBA">
+      <ObjectId>129</ObjectId>
+    </schema>
+    <schema id="110" parent="1" name="IBY">
+      <ObjectId>130</ObjectId>
+    </schema>
+    <schema id="111" parent="1" name="IBE">
+      <ObjectId>131</ObjectId>
+    </schema>
+    <schema id="112" parent="1" name="IBU">
+      <ObjectId>132</ObjectId>
+    </schema>
+    <schema id="113" parent="1" name="FII">
+      <ObjectId>133</ObjectId>
+    </schema>
+    <schema id="114" parent="1" name="HRI">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="115" parent="1" name="ISC">
+      <ObjectId>135</ObjectId>
+    </schema>
+    <schema id="116" parent="1" name="OPI">
+      <ObjectId>136</ObjectId>
+    </schema>
+    <schema id="117" parent="1" name="POA">
+      <ObjectId>137</ObjectId>
+    </schema>
+    <schema id="118" parent="1" name="MSO">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="119" parent="1" name="ONT">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="120" parent="1" name="QP">
+      <ObjectId>140</ObjectId>
+    </schema>
+    <schema id="121" parent="1" name="WSH">
+      <ObjectId>141</ObjectId>
+    </schema>
+    <schema id="122" parent="1" name="MSD">
+      <ObjectId>142</ObjectId>
+    </schema>
+    <schema id="123" parent="1" name="WMS">
+      <ObjectId>143</ObjectId>
+    </schema>
+    <schema id="124" parent="1" name="WPS">
+      <ObjectId>144</ObjectId>
+    </schema>
+    <schema id="125" parent="1" name="CUF">
+      <ObjectId>145</ObjectId>
+    </schema>
+    <schema id="126" parent="1" name="CUA">
+      <ObjectId>146</ObjectId>
+    </schema>
+    <schema id="127" parent="1" name="IPA">
+      <ObjectId>147</ObjectId>
+    </schema>
+    <schema id="128" parent="1" name="ASG">
+      <ObjectId>148</ObjectId>
+    </schema>
+    <schema id="129" parent="1" name="IEX">
+      <ObjectId>149</ObjectId>
+    </schema>
+    <schema id="130" parent="1" name="OKX">
+      <ObjectId>150</ObjectId>
+    </schema>
+    <schema id="131" parent="1" name="ASO">
+      <ObjectId>151</ObjectId>
+    </schema>
+    <schema id="132" parent="1" name="CSP">
+      <ObjectId>152</ObjectId>
+    </schema>
+    <schema id="133" parent="1" name="OZF">
+      <ObjectId>153</ObjectId>
+    </schema>
+    <schema id="134" parent="1" name="OZP">
+      <ObjectId>154</ObjectId>
+    </schema>
+    <schema id="135" parent="1" name="OZS">
+      <ObjectId>155</ObjectId>
+    </schema>
+    <schema id="136" parent="1" name="IEU">
+      <ObjectId>156</ObjectId>
+    </schema>
+    <schema id="137" parent="1" name="IEM">
+      <ObjectId>157</ObjectId>
+    </schema>
+    <schema id="138" parent="1" name="OKE">
+      <ObjectId>158</ObjectId>
+    </schema>
+    <schema id="139" parent="1" name="ECX">
+      <ObjectId>159</ObjectId>
+    </schema>
+    <schema id="140" parent="1" name="GMS">
+      <ObjectId>160</ObjectId>
+    </schema>
+    <schema id="141" parent="1" name="IGW">
+      <ObjectId>161</ObjectId>
+    </schema>
+    <schema id="142" parent="1" name="PSB">
+      <ObjectId>162</ObjectId>
+    </schema>
+    <schema id="143" parent="1" name="PSP">
+      <ObjectId>163</ObjectId>
+    </schema>
+    <schema id="144" parent="1" name="CSR">
+      <ObjectId>164</ObjectId>
+    </schema>
+    <schema id="145" parent="1" name="IEB">
+      <ObjectId>165</ObjectId>
+    </schema>
+    <schema id="146" parent="1" name="IGF">
+      <ObjectId>166</ObjectId>
+    </schema>
+    <schema id="147" parent="1" name="IGS">
+      <ObjectId>167</ObjectId>
+    </schema>
+    <schema id="148" parent="1" name="WSM">
+      <ObjectId>168</ObjectId>
+    </schema>
+    <schema id="149" parent="1" name="MWA">
+      <ObjectId>169</ObjectId>
+    </schema>
+    <schema id="150" parent="1" name="FV">
+      <ObjectId>170</ObjectId>
+    </schema>
+    <schema id="151" parent="1" name="IGC">
+      <ObjectId>171</ObjectId>
+    </schema>
+    <schema id="152" parent="1" name="PSA">
+      <ObjectId>172</ObjectId>
+    </schema>
+    <schema id="153" parent="1" name="APPS">
+      <ObjectId>173</ObjectId>
+    </schema>
+    <schema id="154" parent="1" name="PV">
+      <ObjectId>176</ObjectId>
+    </schema>
+    <schema id="155" parent="1" name="ASL">
+      <ObjectId>177</ObjectId>
+    </schema>
+    <schema id="156" parent="1" name="EAM">
+      <ObjectId>187</ObjectId>
+    </schema>
+    <schema id="157" parent="1" name="FTE">
+      <ObjectId>188</ObjectId>
+    </schema>
+    <schema id="158" parent="1" name="IGI">
+      <ObjectId>189</ObjectId>
+    </schema>
+    <schema id="159" parent="1" name="ITG">
+      <ObjectId>190</ObjectId>
+    </schema>
+    <schema id="160" parent="1" name="MSR">
+      <ObjectId>191</ObjectId>
+    </schema>
+    <schema id="161" parent="1" name="IPD">
+      <ObjectId>192</ObjectId>
+    </schema>
+    <schema id="162" parent="1" name="ENI">
+      <ObjectId>193</ObjectId>
+    </schema>
+    <schema id="163" parent="1" name="CUE">
+      <ObjectId>194</ObjectId>
+    </schema>
+    <schema id="164" parent="1" name="OKR">
+      <ObjectId>195</ObjectId>
+    </schema>
+    <schema id="165" parent="1" name="PORTAL30">
+      <ObjectId>202</ObjectId>
+    </schema>
+    <schema id="166" parent="1" name="PORTAL30_PUBLIC">
+      <ObjectId>203</ObjectId>
+    </schema>
+    <schema id="167" parent="1" name="PORTAL30_SSO">
+      <ObjectId>204</ObjectId>
+    </schema>
+    <schema id="168" parent="1" name="PORTAL30_SSO_PUBLIC">
+      <ObjectId>205</ObjectId>
+    </schema>
+    <schema id="169" parent="1" name="PORTAL30_SSO_PS">
+      <ObjectId>206</ObjectId>
+    </schema>
+    <schema id="170" parent="1" name="PORTAL30_DEMO">
+      <ObjectId>207</ObjectId>
+    </schema>
+    <schema id="171" parent="1" name="SCOTT">
+      <ObjectId>208</ObjectId>
+    </schema>
+    <schema id="172" parent="1" name="IMC">
+      <ObjectId>209</ObjectId>
+    </schema>
+    <schema id="173" parent="1" name="XNI">
+      <ObjectId>210</ObjectId>
+    </schema>
+    <schema id="174" parent="1" name="POS">
+      <ObjectId>211</ObjectId>
+    </schema>
+    <schema id="175" parent="1" name="AHM">
+      <ObjectId>212</ObjectId>
+    </schema>
+    <schema id="176" parent="1" name="ASP">
+      <ObjectId>213</ObjectId>
+    </schema>
+    <schema id="177" parent="1" name="BIV">
+      <ObjectId>214</ObjectId>
+    </schema>
+    <schema id="178" parent="1" name="CSI">
+      <ObjectId>215</ObjectId>
+    </schema>
+    <schema id="179" parent="1" name="CSL">
+      <ObjectId>216</ObjectId>
+    </schema>
+    <schema id="180" parent="1" name="CUG">
+      <ObjectId>217</ObjectId>
+    </schema>
+    <schema id="181" parent="1" name="IMT">
+      <ObjectId>218</ObjectId>
+    </schema>
+    <schema id="182" parent="1" name="OKI">
+      <ObjectId>219</ObjectId>
+    </schema>
+    <schema id="183" parent="1" name="IEC">
+      <ObjectId>220</ObjectId>
+    </schema>
+    <schema id="184" parent="1" name="CSE">
+      <ObjectId>221</ObjectId>
+    </schema>
+    <schema id="185" parent="1" name="OKO">
+      <ObjectId>222</ObjectId>
+    </schema>
+    <schema id="186" parent="1" name="JTS">
+      <ObjectId>223</ObjectId>
+    </schema>
+    <schema id="187" parent="1" name="JTM">
+      <ObjectId>224</ObjectId>
+    </schema>
+    <schema id="188" parent="1" name="AHL">
+      <ObjectId>225</ObjectId>
+    </schema>
+    <schema id="189" parent="1" name="OKB">
+      <ObjectId>226</ObjectId>
+    </schema>
+    <schema id="190" parent="1" name="DBSNMP">
+      <ObjectId>228</ObjectId>
+    </schema>
+    <schema id="191" parent="1" name="BNE">
+      <ObjectId>230</ObjectId>
+    </schema>
+    <schema id="192" parent="1" name="QRM">
+      <ObjectId>231</ObjectId>
+    </schema>
+    <schema id="193" parent="1" name="PON">
+      <ObjectId>232</ObjectId>
+    </schema>
+    <schema id="194" parent="1" name="OKL">
+      <ObjectId>233</ObjectId>
+    </schema>
+    <schema id="195" parent="1" name="IBC">
+      <ObjectId>234</ObjectId>
+    </schema>
+    <schema id="196" parent="1" name="AMF">
+      <ObjectId>235</ObjectId>
+    </schema>
+    <schema id="197" parent="1" name="QOT">
+      <ObjectId>236</ObjectId>
+    </schema>
+    <schema id="198" parent="1" name="CSM">
+      <ObjectId>237</ObjectId>
+    </schema>
+    <schema id="199" parent="1" name="DOM">
+      <ObjectId>238</ObjectId>
+    </schema>
+    <schema id="200" parent="1" name="EGO">
+      <ObjectId>239</ObjectId>
+    </schema>
+    <schema id="201" parent="1" name="DDD">
+      <ObjectId>240</ObjectId>
+    </schema>
+    <schema id="202" parent="1" name="PJI">
+      <ObjectId>241</ObjectId>
+    </schema>
+    <schema id="203" parent="1" name="XNB">
+      <ObjectId>245</ObjectId>
+    </schema>
+    <schema id="204" parent="1" name="ZFA">
+      <ObjectId>246</ObjectId>
+    </schema>
+    <schema id="205" parent="1" name="ZSA">
+      <ObjectId>247</ObjectId>
+    </schema>
+    <schema id="206" parent="1" name="CLN">
+      <ObjectId>248</ObjectId>
+    </schema>
+    <schema id="207" parent="1" name="EDR">
+      <ObjectId>249</ObjectId>
+    </schema>
+    <schema id="208" parent="1" name="PRP">
+      <ObjectId>250</ObjectId>
+    </schema>
+    <schema id="209" parent="1" name="SSOSDK">
+      <ObjectId>251</ObjectId>
+    </schema>
+    <schema id="210" parent="1" name="XXLW">
+      <ObjectId>252</ObjectId>
+    </schema>
+    <schema id="211" parent="1" name="XXEUL4_US">
+      <ObjectId>257</ObjectId>
+    </schema>
+    <schema id="212" parent="1" name="XXLW_WWW">
+      <ObjectId>258</ObjectId>
+    </schema>
+    <schema id="213" parent="1" name="KROKUS">
+      <ObjectId>260</ObjectId>
+    </schema>
+    <schema id="214" parent="1" name="BB">
+      <ObjectId>261</ObjectId>
+    </schema>
+    <schema id="215" parent="1" name="XXSPOT">
+      <ObjectId>262</ObjectId>
+    </schema>
+    <schema id="216" parent="1" name="AMW">
+      <ObjectId>263</ObjectId>
+    </schema>
+    <schema id="217" parent="1" name="XLE">
+      <ObjectId>264</ObjectId>
+    </schema>
+    <schema id="218" parent="1" name="ASN">
+      <ObjectId>265</ObjectId>
+    </schema>
+    <schema id="219" parent="1" name="MST">
+      <ObjectId>266</ObjectId>
+    </schema>
+    <schema id="220" parent="1" name="FUN">
+      <ObjectId>267</ObjectId>
+    </schema>
+    <schema id="221" parent="1" name="GCS">
+      <ObjectId>268</ObjectId>
+    </schema>
+    <schema id="222" parent="1" name="XDO">
+      <ObjectId>269</ObjectId>
+    </schema>
+    <schema id="223" parent="1" name="ZX">
+      <ObjectId>270</ObjectId>
+    </schema>
+    <schema id="224" parent="1" name="LNS">
+      <ObjectId>271</ObjectId>
+    </schema>
+    <schema id="225" parent="1" name="IA">
+      <ObjectId>272</ObjectId>
+    </schema>
+    <schema id="226" parent="1" name="FPA">
+      <ObjectId>273</ObjectId>
+    </schema>
+    <schema id="227" parent="1" name="ZPB">
+      <ObjectId>274</ObjectId>
+    </schema>
+    <schema id="228" parent="1" name="OLAPSYS">
+      <ObjectId>275</ObjectId>
+    </schema>
+    <schema id="229" parent="1" name="AD_MONITOR">
+      <ObjectId>278</ObjectId>
+    </schema>
+    <schema id="230" parent="1" name="EUL10_US">
+      <ObjectId>284</ObjectId>
+    </schema>
+    <schema id="231" parent="1" name="WWW_LL">
+      <ObjectId>286</ObjectId>
+    </schema>
+    <schema id="232" parent="1" name="EM_MONITOR">
+      <ObjectId>290</ObjectId>
+    </schema>
+    <schema id="233" parent="1" name="EMINEO">
+      <ObjectId>293</ObjectId>
+    </schema>
+    <schema id="234" parent="1" name="WMSYS">
+      <ObjectId>294</ObjectId>
+    </schema>
+    <schema id="235" parent="1" name="TOAD">
+      <ObjectId>296</ObjectId>
+    </schema>
+    <schema id="236" parent="1" name="XX_SMS">
+      <ObjectId>301</ObjectId>
+    </schema>
+    <schema id="237" parent="1" name="DIP">
+      <ObjectId>302</ObjectId>
+    </schema>
+    <schema id="238" parent="1" name="XDB">
+      <ObjectId>309</ObjectId>
+    </schema>
+    <schema id="239" parent="1" name="ANONYMOUS">
+      <ObjectId>310</ObjectId>
+    </schema>
+    <schema id="240" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>317</ObjectId>
+    </schema>
+    <schema id="241" parent="1" name="MDDATA">
+      <ObjectId>319</ObjectId>
+    </schema>
+    <schema id="242" parent="1" name="SYSMAN">
+      <ObjectId>328</ObjectId>
+    </schema>
+    <schema id="243" parent="1" name="MGMT_VIEW">
+      <ObjectId>330</ObjectId>
+    </schema>
+    <schema id="244" parent="1" name="DBMONITOR">
+      <ObjectId>334</ObjectId>
+    </schema>
+    <schema id="245" parent="1" name="ORACLE_OCM">
+      <ObjectId>336</ObjectId>
+    </schema>
+    <schema id="246" parent="1" name="SPOTLIGHT">
+      <ObjectId>337</ObjectId>
+    </schema>
+    <schema id="247" parent="1" name="IZU">
+      <ObjectId>338</ObjectId>
+    </schema>
+    <schema id="248" parent="1" name="DEV_BIPLATFORM">
+      <ObjectId>340</ObjectId>
+    </schema>
+    <schema id="249" parent="1" name="SPOT_BENGT">
+      <ObjectId>341</ObjectId>
+    </schema>
+    <schema id="250" parent="1" name="APPSRO">
+      <ObjectId>342</ObjectId>
+    </schema>
+    <schema id="251" parent="1" name="DEV_MDS">
+      <ObjectId>343</ObjectId>
+    </schema>
+    <schema id="252" parent="1" name="APPQOSSYS">
+      <ObjectId>348</ObjectId>
+    </schema>
+    <schema id="253" parent="1" name="ORDDATA">
+      <ObjectId>349</ObjectId>
+    </schema>
+    <schema id="254" parent="1" name="PRD1_DISCOVERER">
+      <ObjectId>352</ObjectId>
+    </schema>
+    <schema id="255" parent="1" name="PRD1_DISCOVERER_PS">
+      <ObjectId>353</ObjectId>
+    </schema>
+    <schema id="256" parent="1" name="SQLTXPLAIN">
+      <ObjectId>354</ObjectId>
+    </schema>
+    <schema id="257" parent="1" name="SQLTXADMIN">
+      <ObjectId>355</ObjectId>
+    </schema>
+    <schema id="258" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>357</ObjectId>
+    </schema>
+    <schema id="259" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>358</ObjectId>
+    </schema>
+    <schema id="260" parent="1" name="EXFSYS">
+      <ObjectId>359</ObjectId>
+    </schema>
+    <schema id="261" parent="1" name="JONBOR">
+      <ObjectId>362</ObjectId>
+    </schema>
+    <schema id="262" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <synonym id="263" parent="2" name="AR_LOOKUPS">
+      <ObjectId>1986123</ObjectId>
+      <CreatedTimestamp>2012-02-02.18:26:25</CreatedTimestamp>
+      <ModifiedTimestamp>2012-02-02.18:26:25</ModifiedTimestamp>
+      <TargetSchemaName>APPS</TargetSchemaName>
+      <TargetObjectName>AR_LOOKUPS</TargetObjectName>
+    </synonym>
+    <synonym id="264" parent="2" name="MTL_INTERORG_SHIP_METHODS">
+      <ObjectId>1796178</ObjectId>
+      <CreatedTimestamp>2010-10-14.13:53:18</CreatedTimestamp>
+      <ModifiedTimestamp>2010-10-14.13:53:18</ModifiedTimestamp>
+      <TargetSchemaName>INV</TargetSchemaName>
+      <TargetObjectName>MTL_INTERORG_SHIP_METHODS</TargetObjectName>
+    </synonym>
+    <synonym id="265" parent="2" name="WSH_REGIONS">
+      <ObjectId>1796177</ObjectId>
+      <CreatedTimestamp>2010-10-14.13:53:18</CreatedTimestamp>
+      <ModifiedTimestamp>2010-10-14.13:53:18</ModifiedTimestamp>
+      <TargetSchemaName>WSH</TargetSchemaName>
+      <TargetObjectName>WSH_REGIONS</TargetObjectName>
+    </synonym>
+  </database-model>
+</dataSource>

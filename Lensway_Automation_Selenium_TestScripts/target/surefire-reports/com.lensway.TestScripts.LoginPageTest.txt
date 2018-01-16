@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.lensway.TestScripts.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.378 sec <<< FAILURE!
+setUp(com.lensway.TestScripts.LoginPageTest)  Time elapsed: 0.256 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.lensway.baseconfiguration.TestBase.initialization(TestBase.java:38)
+	at com.lensway.TestScripts.LoginPageTest.setUp(LoginPageTest.java:33)
+

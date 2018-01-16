@@ -1,0 +1,8 @@
+com\lensway\baseconfiguration\TestBase.class
+com\lensway\Pages\SunglassesPage.class
+com\lensway\Pages\RegistrationPage.class
+com\lensway\utillities\TestUtils.class
+com\lensway\Pages\HomePage.class
+com\lensway\Pages\LoginPage.class
+com\lensway\Pages\LensesPage.class
+com\lensway\Pages\GlassesPage.class
